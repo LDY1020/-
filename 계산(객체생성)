@@ -1,0 +1,15 @@
+package 클래스;
+
+public class 계산매소드 {
+
+	public static void main(String[] args) {
+	   계산 c = new 계산();
+	   int result1 = c.add(3,5);
+	   double result2 = c.add(3.0 , 4.3);
+	   
+	   System.out.println("result1 : " + result1);
+	   System.out.println("result1 : " + result2);
+
+	}
+
+}
