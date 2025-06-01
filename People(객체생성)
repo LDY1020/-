@@ -1,0 +1,13 @@
+package 클래스;
+
+public class PeopleExample {
+
+	public static void main(String[] args) {
+		People p = new People();
+		
+		p.setinfo("홍길동" , 27 , "서울");
+		System.out.println(p.name + "," +  p.age + "," + p.address);
+
+	}
+
+}
